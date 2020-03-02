@@ -4,7 +4,7 @@
 
 > 为什么需要binlog2cache
 
-存储在yysql中并且在redis中缓存的数据是易变的，这回引起脏数据。因此应该实时将数据库中最新的数据通过`binlog2cache`同步至redis缓存
+存储在mysql中并且在redis中缓存的数据是易变的，这回引起脏数据。因此应该实时将数据库中最新的数据通过`binlog2cache`同步至redis缓存
 
 ## 使用方式
 
