@@ -1,0 +1,22 @@
+MYSQL_SETTINGS:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: "gllue123"
+
+REDIS_SETTINGS:
+  host: 127.0.0.1
+  port: 6379
+  db: 0
+  password:
+
+SELF:
+  server_id: 11
+  log_pos_prefix: log_pos_
+  filter:
+    only_schemas:
+      - rui
+      - test
+    only_tables: []
+    ignored_table: []
+    ignored_schemas: []
